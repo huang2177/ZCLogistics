@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressImageView">
+
+        <!--图片圆角大小-->
+        <attr name="roundPixel" format="dimension|reference" />
+        <!--是否启用进度-->
+        <attr name="useProgress" format="boolean" />
+        <!--进度影音色值-->
+        <attr name="roundShadowColor" format="color|reference" />
+        <!--进度文字大小-->
+        <attr name="roundProgressTextSize" format="dimension|reference" />
+        <!--进度文字大小-->
+        <attr name="roundProgressTextColor" format="color|reference" />
+    </declare-styleable>
+</resources>

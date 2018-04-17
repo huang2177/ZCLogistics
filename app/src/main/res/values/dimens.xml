@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fixed_height_bottom_padding">4dp</dimen>
+
+    <dimen name="badge_text_size">12sp</dimen><!-- 10 -->
+    <dimen name="badge_corner_radius">15dp</dimen><!-- 15 -->
+    <dimen name="badge_width_padding">5dp</dimen><!-- 4 -->
+    <dimen name="badge_height_padding">0dp</dimen><!-- 1 -->
+    <dimen name="badge_top_margin">2dp</dimen><!-- 2 -->
+
+</resources>

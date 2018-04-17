@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <!--<include layout="@laytitlebar_commonxmlebar" />-->
+
+    <ImageView
+        android:id="@+id/iv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_login_logo" />
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/tablayout_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:tl_indicator_color="@color/mainColor"
+        app:tl_indicator_margin_top="5dp"
+        app:tl_indicator_width_equal_title="true"
+        app:tl_textBold="SELECT"
+        app:tl_textSelectColor="@color/mainColor"
+        app:tl_textUnselectColor="@color/littleGray"
+        app:tl_textsize="16.0sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

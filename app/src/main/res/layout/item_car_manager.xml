@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_car_manager"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/item_car_route"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical"
+            android:text="上海 ⇀ 北京"
+            android:textColor="@color/defaultWhite"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_car_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="车牌号：沪A545566"
+                android:textColor="@color/defaultWhite"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/item_car_length"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="车长：9米"
+                android:textColor="@color/defaultWhite"
+                android:textSize="14.0sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_car_model"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="车型：高栏"
+                android:textColor="@color/defaultWhite"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/item_car_weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="载重：100吨"
+                android:textColor="@color/defaultWhite"
+                android:textSize="14.0sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/item_car_time"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="2015-12-18"
+            android:textColor="@color/defaultWhite"
+            android:textSize="14.0sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

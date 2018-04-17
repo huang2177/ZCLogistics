@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_advancepayment_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_delete_black"
+        android:drawablePadding="8dp"
+        android:text="上传签收凭证"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bgGray" />
+
+    <TextView
+        android:id="@+id/dialog_advancepayment_ali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_zhifubao"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/ic_checked"
+        android:gravity="center_vertical"
+        android:text="支付宝支付"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bgGray" />
+
+    <TextView
+        android:id="@+id/dialog_advancepayment_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_weixin"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/ic_uncheck"
+        android:gravity="center_vertical"
+        android:text="微信支付"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bgGray" />
+
+    <TextView
+        android:id="@+id/dialog_advancepayment_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_wallet"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/ic_uncheck"
+        android:gravity="center_vertical"
+        android:text="钱包支付"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+</LinearLayout>

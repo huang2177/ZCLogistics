@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">晨运宝</string>
+    <string name="register_agreement">同意<font color="#157efb">《晨运宝用户注册协议》</font></string>
+    <string name="title_activity_maps">Map</string>
+</resources>

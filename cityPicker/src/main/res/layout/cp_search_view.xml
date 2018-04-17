@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cp_search_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cp_colorAccent"
+    android:gravity="center_vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="8dp"
+    tools:showIn="@layout/cp_dialog_city_picker">
+
+    <com.huangbrayant.citypicker.view.XEditText
+        android:id="@+id/cp_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner_white"
+        android:drawableLeft="@mipmap/ic_search"
+        android:drawablePadding="5dp"
+        android:hint="?attr/cpSearchHintText"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:padding="7dp"
+        android:textColor="?attr/cpSearchTextColor"
+        android:textColorHint="?attr/cpSearchHintTextColor"
+        android:textCursorDrawable="?attr/cpSearchCursorDrawable"
+        android:textSize="?attr/cpSearchTextSize"
+        app:clearButtonMode="whileEditing" />
+
+</LinearLayout>
