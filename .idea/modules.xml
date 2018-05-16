@@ -3,8 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZCLogistics.iml" filepath="$PROJECT_DIR$/ZCLogistics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cityPicker/cityPicker.iml" filepath="$PROJECT_DIR$/cityPicker/cityPicker.iml" />
+      <module fileurl="file://F:\AndroidStudioProjects\ZCLogistics\module_app\app.iml" filepath="F:\AndroidStudioProjects\ZCLogistics\module_app\app.iml" />
+      <module fileurl="file://F:\AndroidStudioProjects\ZCLogistics\module_cityPicker\cityPicker.iml" filepath="F:\AndroidStudioProjects\ZCLogistics\module_cityPicker\cityPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_app/module_app.iml" filepath="$PROJECT_DIR$/module_app/module_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_base/module_base.iml" filepath="$PROJECT_DIR$/module_base/module_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_cityPicker/module_cityPicker.iml" filepath="$PROJECT_DIR$/module_cityPicker/module_cityPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_login/module_login.iml" filepath="$PROJECT_DIR$/module_login/module_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_message/module_message.iml" filepath="$PROJECT_DIR$/module_message/module_message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_mine/module_mine.iml" filepath="$PROJECT_DIR$/module_mine/module_mine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_source/module_source.iml" filepath="$PROJECT_DIR$/module_source/module_source.iml" />
     </modules>
   </component>
 </project>

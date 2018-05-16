@@ -1,1 +1,7 @@
-include ':app', ':cityPicker'
+include ':module_app',
+        ':module_cityPicker',
+        ':module_source',
+        ':module_message',
+        ':module_mine',
+        ':module_base',
+        ':module_login'

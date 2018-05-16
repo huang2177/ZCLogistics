@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.module.mine">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity
+            android:name="com.module.mine.personinfo.MyInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.module.mine.waybill.WaybillActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.waybill.WayBillDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.advancepayment.AdvancePaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.wallet.MyAssetsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.wallet.BankActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.wallet.WalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.setting.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.setting.ModifyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="com.module.mine.setting.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.wallet.BindBankActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.wallet.TradeDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.wallet.TakeOutMoneyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.car.CarManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.route.RouteManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.route.AddRouteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.module.mine.route.ChooseCarModelActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".debug.TestActivity" />
+    </application>
+</manifest>
